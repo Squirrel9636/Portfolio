@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="scrollpoint-0" class="parallax" style="background-image: url(img/best1.jpg);">
+        <button class="reveal" onclick="Link('#scrollPoint-1')" type="button">
+            ME
+        </button><button style="margin-left:20%" class="reveal" onclick="Link('#scrollPoint-2')" type="button">
+           My Works
+        </button><button  style="margin-left:20%"  class="reveal" onclick="Link('#scrollPoint-3')" type="button">
+            Contact
+        </button>
+    </div>
+    <div id="scrollPoint-1"class="parallax" style="background-image: url(img/best3.jpg);">
+        <button onclick="Link('#scrollpoint-0')" class="backbutton reveal" type="button">
+            Return
+        </button>
+        <div >
+        
+            <img class="myself reveal" src="img/me8.png" />
+            
+        </div>
+        <div class="aboutme reveal">
+            <p>
+                <strong>Peace be upon you!</strong> I'm Anika.
+                <br><em>Front-end developer</em>, with about two weeks of experience.</br>
+                 Html, css and javascript.
+                <br>A traveler, photographer, artist and book lover.</br> 
+                
+
+            </p>
+
+
+        </div>
+
+    </div>    <div id="scrollPoint-2" class="parallax" style="background-image: url(img/best2.jpg);">
+        <button onclick="Link('#scrollpoint-0')" class="backbutton reveal" type="button">
+            Return
+        </button>
+        <button onclick="Link('https://squirrel9636.github.io/Mountains/Magnum%20opus/index.html')" class="mountains reveal" >
+           <p> MOUNTAINS</p>
+        
+
+        </button>
+        <div class="detailsm reveal">
+            <p>
+                It's a website I built describing mountains.
+    
+            </p>
+        </div> 
+        
+
+    </div> 
+  
+      <div class="parallax" id="scrollPoint-3" style="background-image: url(img/best.jpg);">
+        <button type="button" onclick="Link('#scrollpoint-0')" class="backbutton reveal">
+            Return
+        </button>
+        <div class="contact reveal" >
+            <p>
+                <strong><em> E-mail:</em></strong>
+                <br>Bloodmoon9636@gmail.com
+                <strong><em> WhatsApp:</em></strong> <br>01728690666<br>
+                         <strong><em> Instagram:</em></strong> <br> Light_green_leaves<br />
+
+            </p>
+        </div>
+    </div>
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
